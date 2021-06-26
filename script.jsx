@@ -1,7 +1,4 @@
-import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
-import CardGroup from 'react-bootstrap/CardGroup';
-import CardColumns from 'react-bootstrap/CardColumns';
+import { Card , CardDeck , CardGroup , CardColumns } from "https://unpkg.com/react-bootstrap@next/";
 
 const text = ("Some quick example text to build on the card title and make up the bulk of the card's content.");
 function divCard() {
