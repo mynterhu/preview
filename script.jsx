@@ -10,4 +10,4 @@ function card(text) {
     );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<card />, document.getElementById("root"));
