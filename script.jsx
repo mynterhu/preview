@@ -1,5 +1,5 @@
 const text = ("Some quick example text to build on the card title and make up the bulk of the card's content.");
-function card(text) {
+function Card(text) {
     return (
         <div className={'card'} style={{ width: '18rem' }}>
             <img srcSet={''} className={'card-img-top'}></img>
@@ -10,4 +10,4 @@ function card(text) {
     );
 };
 
-ReactDOM.render(<card />, document.getElementById("root"));
+ReactDOM.render(<Card />, document.getElementById("root"));
