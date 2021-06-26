@@ -13,6 +13,5 @@ function divCard() {
     </Card>
 }
 
-
 ReactDOM.render(<divCard />, document.getElementById("root")
 );
