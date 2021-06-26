@@ -1,5 +1,5 @@
 const text = ("Some quick example text to build on the card title and make up the bulk of the card's content.");
-ReactDOM.render(
+function divCard() {
     <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
@@ -10,6 +10,9 @@ ReactDOM.render(
             </Card.Text>
             <Button variant="primary">{text}</Button>
         </Card.Body>
-    </Card>,
-    document.getElementById("root")
+    </Card>
+}
+
+
+ReactDOM.render(<divCard />, document.getElementById("root")
 );
